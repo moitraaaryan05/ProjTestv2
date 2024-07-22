@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Aptos, sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  /* width: 100%; */
+  background-color: #ffffff;
+  color: rgb(33, 33, 33);
+  padding: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.07);
+  font-size: 16px;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 48px;
+  position: relative;
+  left: 10px;
+}
+
+.login-button button {
+  background-color: #0b5cff;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  position: relative;
+  right: 35px;
+  font-weight: 700;
+}
+
+.login-button button:hover {
+  background-color: #ffffff;
+  border: 2.5px solid #0b5cff;
+  color: #0b5cff;
+}
+
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.links a {
+  color: rgb(33, 33, 33);
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 550;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #0b5cff;
+}
+
+.search-bar input {
+  padding: 4.3px 15px;
+  border-radius: 25px;
+  border: 1px solid rgb(210, 210, 210);
+  position: relative;
+  right: 35px;
+  bottom: 3.5px;
+  font-weight: 700;
+}
+
+.search-bar input::placeholder {
+  color: #dbdbdb;
+}
+
+.navbar-path {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding-top: 12.5px;
+  font-size: 14px;
+  padding-left: 35px;
+  position: relative;
+  left: -10px;
+  border-top: 0.2px solid rgb(198, 198, 198);
+  box-shadow: inset 0 4px 10px -4px rgba(0, 0, 0, 0.2);
+  
+}
+
+.navbar-path span {
+  margin-right: 21px;
+}
+
+.navbar-path span:last-child {
+  margin-right: 0;
+}

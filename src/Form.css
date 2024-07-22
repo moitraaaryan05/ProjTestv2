@@ -1,0 +1,14 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .form .button {
+    z-index: 200;
+    position: relative;
+    left: calc(17.4% + 1px);
+    top: 1px;
+  }
+  

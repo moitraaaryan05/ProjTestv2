@@ -1,0 +1,28 @@
+.tile {
+    border: 1.4px solid #c5c5c5;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 25.5%; /* Add a fixed width to maintain uniformity */
+    height: 140px;
+    background-color: #f1f1f1;
+  }
+  
+  .tile-photo {
+    width: 16%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    /* position: relative; */
+    /* left: 40%; */
+  }
+  
+  /* .tile h2 {
+    margin-bottom: 10px;
+  }
+  
+  .tile p {
+    margin-bottom: 20px;
+  } */
+  

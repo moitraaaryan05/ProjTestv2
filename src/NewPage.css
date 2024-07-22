@@ -1,0 +1,22 @@
+.main-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .tiles-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  hr {
+    width: 80%;
+  }
+
+  .form-section {
+    position: relative;
+  }
