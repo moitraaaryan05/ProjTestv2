@@ -1,0 +1,85 @@
+/* Hide the default radio button */
+input[type="radio"] {
+    display: none;
+}
+
+/* Style the custom radio button */
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+/* Create the custom radio button */
+.custom-radio input[type="radio"] + span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+/* Change the background color when checked */
+.custom-radio input[type="radio"]:checked + span {
+    background-color: red;
+}
+
+/* Create the circle inside the radio button */
+.custom-radio input[type="radio"]:checked + span:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Position the custom radio button */
+.custom-radio input[type="radio"] + span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* Add the custom radio button's span */
+.custom-radio input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-radio input[type="radio"]:checked + span {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.custom-radio input[type="radio"] + span:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-radio input[type="radio"]:checked + span:after {
+    display: block;
+}
+
+.custom-radio input[type="radio"] + span:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
